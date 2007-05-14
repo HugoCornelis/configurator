@@ -1,0 +1,167 @@
+---
+readcell2ndf:
+  algorithms:
+    spines:
+      fRandomDendrDiaMax: 3.18
+      fRandomDendrDiaMin: 0.00
+      fSpineDensity: 13.0
+      fSpineFrequency: 1.0
+  library:
+    noname:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.17
+    gp_pc1:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    gp_pc2:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    gp_pc3:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    Purk2M9s:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    RatPC1_copy:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    RatPC2_110104:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    RatPC3_072205:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    TurtlePC1_110504:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    TurtlePC2_020105:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+    TurtlePC3_061105:
+      algorithms:
+        spines:
+          fRandomDendrDiaMax: 3.18
+          fRandomDendrDiaMin: 0.00
+          fSpineDensity: 13.0
+          fSpineFrequency: 1.0
+      options:
+        histology:
+          shrinkage: 1.1111
+      prototypes:
+        spine_prototypes:
+          - Purk_spine
+  options:
+    histology:
+      shrinkage: 1
+    relocation:
+      soma_offset: 1
+  prototypes:
+    aliasses:
+      - segments/spines/purkinje.ndf::Purk_spine
+      - tests/segments/purkinje/maind.ndf::maind
+      - tests/segments/purkinje/soma.ndf::soma
+      - tests/segments/purkinje/spinyd.ndf::spinyd
+      - tests/segments/purkinje/thickd.ndf::thickd
+    parameter_2_prototype:
+      - dia: 3.18e-06
+        prototype: spinyd
+      - dia: 7.71e-06
+        prototype: thickd
+      - dia: 2.8e-05
+        prototype: maind
+      - dia: 1
+        prototype: soma
+    spine_prototypes: []
+  variables:
+    origin:
+      x: 0
+      y: 0
+      z: 0
