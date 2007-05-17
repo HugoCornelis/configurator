@@ -2,22 +2,22 @@
 readcell2ndf:
   algorithms:
     spines:
-      fRandomDendrDiaMax: 3.18
-      fRandomDendrDiaMin: 0.00
+      fDendrDiaMax: 3.18
+      fDendrDiaMin: 0.00
       fSpineDensity: 13.0
       fSpineFrequency: 1.0
   library:
     noname:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.17
+          fDendrDiaMax: 3.17
     gp_pc1:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 12.7610588890028
+          fSpineFrequency: 0.748603351955307
       options:
         histology:
           shrinkage: 1.1111
@@ -27,10 +27,10 @@ readcell2ndf:
     gp_pc2:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 16.6738093362484
+          fSpineFrequency: 1.0207756232687
       options:
         histology:
           shrinkage: 1.1111
@@ -40,10 +40,10 @@ readcell2ndf:
     gp_pc3:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 17.5270685849591
+          fSpineFrequency: 1.15336463223787
       options:
         histology:
           shrinkage: 1.1111
@@ -53,8 +53,8 @@ readcell2ndf:
     Purk2M9s:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
           fSpineDensity: 13.0
           fSpineFrequency: 1.0
       prototypes:
@@ -63,10 +63,10 @@ readcell2ndf:
     RatPC1_copy:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 14.8461936121549
+          fSpineFrequency: 0.386978209503807
       options:
         histology:
           shrinkage: 1.1111
@@ -76,10 +76,10 @@ readcell2ndf:
     RatPC2_110104:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 28.2199590773879
+          fSpineFrequency: 0.645359019264448
       options:
         histology:
           shrinkage: 1.1111
@@ -89,10 +89,10 @@ readcell2ndf:
     RatPC3_072205:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 30.8944761783486
+          fSpineFrequency: 0.564102564102564
       options:
         histology:
           shrinkage: 1.1111
@@ -102,10 +102,10 @@ readcell2ndf:
     TurtlePC1_110504:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 17.3842623658764
+          fSpineFrequency: 0.581001182499015
       options:
         histology:
           shrinkage: 1.1111
@@ -115,10 +115,10 @@ readcell2ndf:
     TurtlePC2_020105:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 17.3937351738155
+          fSpineFrequency: 0.32741003998223
       options:
         histology:
           shrinkage: 1.1111
@@ -128,10 +128,10 @@ readcell2ndf:
     TurtlePC3_061105:
       algorithms:
         spines:
-          fRandomDendrDiaMax: 3.18
-          fRandomDendrDiaMin: 0.00
-          fSpineDensity: 13.0
-          fSpineFrequency: 1.0
+          fDendrDiaMax: 3.18
+          fDendrDiaMin: 0.00
+          fSpineDensity: 18.1750970203003
+          fSpineFrequency: 0.753193663771078
       options:
         histology:
           shrinkage: 1.1111
