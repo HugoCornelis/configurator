@@ -1,5 +1,5 @@
 ---
-readcell2ndf:
+morphology2ndf:
   options:
     histology:
       shrinkage: 1
