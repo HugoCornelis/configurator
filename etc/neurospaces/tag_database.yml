@@ -1,0 +1,29 @@
+---
+tags:
+  - date: "Fri Apr 18 15:26:18 CDT 2008\n"
+    regex-selector: ssp|studio|heccer|model-container
+    tag: build-27
+  - date: "Fri Apr 18 16:40:11 CDT 2008\n"
+    regex-selector: ssp|studio|heccer|model-container
+    tag: build-28
+  - date: "Mon Apr 28 15:10:07 CDT 2008\n"
+    regex-selector: (model_container|heccer|ssp|studio)
+    tag: build-29
+  - date: "Mon Apr 28 15:10:47 CDT 2008\n"
+    regex-selector: (model_container|heccer|ssp|studio)
+    tag: build-30
+  - date: "Mon Apr 28 15:13:19 CDT 2008\n"
+    regex-selector: (model_container|heccer|ssp|studio)
+    tag: build-31
+  - date: "Mon Apr 28 15:50:06 CDT 2008\n"
+    regex-selector: (model-container|heccer|ssp|studio)
+    tag: build-31
+  - date: "Mon Apr 28 15:51:52 CDT 2008\n"
+    regex-selector: (model-container|heccer|ssp|studio)
+    tag: build-32
+  - date: "Tue May  6 10:57:59 CDT 2008\n"
+    regex-selector: (model-container)
+    tag: build-33
+  - date: "Wed May  7 14:22:13 CDT 2008\n"
+    regex-selector: (installer)
+    tag: build-34
