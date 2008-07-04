@@ -78,3 +78,9 @@ tags:
   - date: "Fri Jun  6 23:38:22 CDT 2008\n"
     regex-selector: installer
     tag: network-5
+  - date: "Tue Jun 17 14:35:24 CDT 2008\n"
+    regex-selector: installer
+    tag: network-6
+  - date: "Tue Jun 17 15:00:02 CDT 2008\n"
+    regex-selector: model-container|heccer|ssp|studio
+    tag: network-6
