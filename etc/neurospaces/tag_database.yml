@@ -84,3 +84,18 @@ tags:
   - date: "Tue Jun 17 15:00:02 CDT 2008\n"
     regex-selector: model-container|heccer|ssp|studio
     tag: network-6
+  - date: "Fri Jul  4 13:57:46 CDT 2008\n"
+    regex-selector: .*
+    tag: network-7
+  - date: "Fri Jul  4 14:01:01 CDT 2008\n"
+    regex-selector: ssp|studio
+    tag: network-7
+  - date: "Fri Jul  4 15:50:32 CDT 2008\n"
+    regex-selector: .*
+    tag: network-8
+  - date: "Sat Jul  5 16:53:03 CDT 2008\n"
+    regex-selector: .*
+    tag: network-9
+  - date: "Sat Jul  5 17:42:27 CDT 2008\n"
+    regex-selector: .*
+    tag: network-10
