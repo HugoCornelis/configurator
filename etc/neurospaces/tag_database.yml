@@ -105,3 +105,27 @@ tags:
   - date: "Mon Jul 14 10:49:21 CDT 2008\n"
     regex-selector: .*
     tag: network-12
+  - date: "Sat Jul 26 22:27:48 CDT 2008\n"
+    regex-selector: .*
+    tag: network-13
+  - date: "Wed Aug  6 21:33:00 CDT 2008\n"
+    regex-selector: .*
+    tag: network-14
+  - date: "Thu Aug  7 09:32:57 CDT 2008\n"
+    regex-selector: installer
+    tag: network-14
+  - date: "Tue Sep  2 13:42:27 CDT 2008\n"
+    regex-selector: .*
+    tag: network-15
+  - date: "Tue Sep  2 14:01:35 CDT 2008\n"
+    regex-selector: .*
+    tag: network-16
+  - date: "Tue Sep  2 14:06:25 CDT 2008\n"
+    regex-selector: .*
+    tag: network-17
+  - date: "Tue Sep  2 14:14:12 CDT 2008\n"
+    regex-selector: studio
+    tag: network-17
+  - date: "Mon Sep  8 22:53:17 CDT 2008\n"
+    regex-selector: .*
+    tag: python-1
