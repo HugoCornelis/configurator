@@ -129,3 +129,6 @@ tags:
   - date: "Mon Sep  8 22:53:17 CDT 2008\n"
     regex-selector: .*
     tag: python-1
+  - date: "Thu Oct  2 17:01:27 CDT 2008\n"
+    regex-selector: .*
+    tag: python-2
