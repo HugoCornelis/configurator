@@ -1,134 +1,209 @@
 ---
 tags:
   - date: "Fri Apr 18 15:26:18 CDT 2008\n"
+    label: build-27
     regex-selector: ssp|studio|heccer|model-container
-    tag: build-27
   - date: "Fri Apr 18 16:40:11 CDT 2008\n"
+    label: build-28
     regex-selector: ssp|studio|heccer|model-container
-    tag: build-28
   - date: "Mon Apr 28 15:10:07 CDT 2008\n"
+    label: build-29
     regex-selector: (model_container|heccer|ssp|studio)
-    tag: build-29
   - date: "Mon Apr 28 15:10:47 CDT 2008\n"
+    label: build-30
     regex-selector: (model_container|heccer|ssp|studio)
-    tag: build-30
   - date: "Mon Apr 28 15:13:19 CDT 2008\n"
+    label: build-31
     regex-selector: (model_container|heccer|ssp|studio)
-    tag: build-31
   - date: "Mon Apr 28 15:50:06 CDT 2008\n"
+    label: build-31
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-31
   - date: "Mon Apr 28 15:51:52 CDT 2008\n"
+    label: build-32
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-32
   - date: "Tue May  6 10:57:59 CDT 2008\n"
+    label: build-33
     regex-selector: (model-container)
-    tag: build-33
   - date: "Wed May  7 14:22:13 CDT 2008\n"
+    label: build-34
     regex-selector: (installer)
-    tag: build-34
   - date: "Sun May 11 20:26:53 CDT 2008\n"
+    label: build-35
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-35
   - date: "Sun May 11 20:52:30 CDT 2008\n"
+    label: build-36
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-36
   - date: "Sun May 11 21:14:19 CDT 2008\n"
+    label: build-37
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-37
   - date: "Mon May 26 15:14:55 CDT 2008\n"
+    label: build-38
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-38
   - date: "Mon May 26 15:26:15 CDT 2008\n"
+    label: build-39
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-39
   - date: "Mon May 26 15:31:35 CDT 2008\n"
+    label: build-40
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-40
   - date: "Mon May 26 15:38:23 CDT 2008\n"
+    label: build-41
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-41
   - date: "Mon May 26 16:36:33 CDT 2008\n"
+    label: build-42
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: build-42
   - date: "Tue May 27 17:41:05 CDT 2008\n"
+    label: build-43
     regex-selector: (model-container)
-    tag: build-43
   - date: "Mon Jun  2 15:55:31 CDT 2008\n"
+    label: network-1
     regex-selector: (model-container|heccer|ssp|studio)
-    tag: network-1
   - date: "Mon Jun  2 16:13:30 CDT 2008\n"
+    label: network-2
     regex-selector: (heccer|ssp|studio)
-    tag: network-2
   - date: "Mon Jun  2 16:29:00 CDT 2008\n"
+    label: network-3
     regex-selector: (ssp|studio)
-    tag: network-3
   - date: "Mon Jun  2 16:41:28 CDT 2008\n"
+    label: network-4
     regex-selector: (ssp|studio)
-    tag: network-4
   - date: "Fri Jun  6 22:03:30 CDT 2008\n"
+    label: network-5
     regex-selector: .*
-    tag: network-5
   - date: "Fri Jun  6 22:43:45 CDT 2008\n"
+    label: network-5
     regex-selector: heccer|ssp|studio
-    tag: network-5
   - date: "Fri Jun  6 22:50:38 CDT 2008\n"
+    label: network-5
     regex-selector: ssp|studio
-    tag: network-5
   - date: "Fri Jun  6 23:38:22 CDT 2008\n"
+    label: network-5
     regex-selector: installer
-    tag: network-5
   - date: "Tue Jun 17 14:35:24 CDT 2008\n"
+    label: network-6
     regex-selector: installer
-    tag: network-6
   - date: "Tue Jun 17 15:00:02 CDT 2008\n"
+    label: network-6
     regex-selector: model-container|heccer|ssp|studio
-    tag: network-6
   - date: "Fri Jul  4 13:57:46 CDT 2008\n"
+    label: network-7
     regex-selector: .*
-    tag: network-7
   - date: "Fri Jul  4 14:01:01 CDT 2008\n"
+    label: network-7
     regex-selector: ssp|studio
-    tag: network-7
   - date: "Fri Jul  4 15:50:32 CDT 2008\n"
+    label: network-8
     regex-selector: .*
-    tag: network-8
   - date: "Sat Jul  5 16:53:03 CDT 2008\n"
+    label: network-9
     regex-selector: .*
-    tag: network-9
   - date: "Sat Jul  5 17:42:27 CDT 2008\n"
+    label: network-10
     regex-selector: .*
-    tag: network-10
   - date: "Sun Jul  6 22:05:02 CDT 2008\n"
+    label: network-11
     regex-selector: .*
-    tag: network-11
   - date: "Mon Jul 14 10:49:21 CDT 2008\n"
+    label: network-12
     regex-selector: .*
-    tag: network-12
   - date: "Sat Jul 26 22:27:48 CDT 2008\n"
+    label: network-13
     regex-selector: .*
-    tag: network-13
   - date: "Wed Aug  6 21:33:00 CDT 2008\n"
+    label: network-14
     regex-selector: .*
-    tag: network-14
   - date: "Thu Aug  7 09:32:57 CDT 2008\n"
+    label: network-14
     regex-selector: installer
-    tag: network-14
   - date: "Tue Sep  2 13:42:27 CDT 2008\n"
+    label: network-15
     regex-selector: .*
-    tag: network-15
   - date: "Tue Sep  2 14:01:35 CDT 2008\n"
+    label: network-16
     regex-selector: .*
-    tag: network-16
   - date: "Tue Sep  2 14:06:25 CDT 2008\n"
+    label: network-17
     regex-selector: .*
-    tag: network-17
   - date: "Tue Sep  2 14:14:12 CDT 2008\n"
+    label: network-17
     regex-selector: studio
-    tag: network-17
   - date: "Mon Sep  8 22:53:17 CDT 2008\n"
+    label: python-1
     regex-selector: .*
-    tag: python-1
   - date: "Thu Oct  2 17:01:27 CDT 2008\n"
+    label: python-2
     regex-selector: .*
-    tag: python-2
+  - date: "Tue Jan  6 13:24:57 CST 2009\n"
+    label: python-3
+    regex-selector: installer|heccer|ssp|model|shell|studio
+  - date: "Tue Jan  6 13:32:48 CST 2009\n"
+    label: python-3
+    regex-selector: heccer|ssp|model|shell|studio
+  - date: "Thu Jan  8 07:36:31 CST 2009\n"
+    label: python-4
+    regex-selector: heccer|ssp|model|shell|studio
+  - date: "Thu Jan  8 08:38:20 CST 2009\n"
+    label: python-5
+    regex-selector: heccer|ssp|model|shell|studio
+  - date: "Thu Jan  8 10:33:38 CST 2009\n"
+    label: python-5
+    regex-selector: installer
+  - date: "Thu Jan  8 12:08:36 CST 2009\n"
+    label: python-6
+    regex-selector: gshell
+  - date: "Fri Jan  9 02:41:09 CST 2009\n"
+    label: python-7
+    regex-selector: gshell
+  - date: "Mon Sep  7 09:56:21 CDT 2009\n"
+    label: userdocs-2
+    regex-selector: installer
+  - date: "Mon Sep  7 12:54:02 CDT 2009\n"
+    label: userdocs-3
+    regex-selector: installer
+  - date: "Mon Sep  7 13:19:30 CDT 2009\n"
+    label: userdocs-3
+    regex-selector: model-container
+  - date: "Mon Sep  7 13:29:08 CDT 2009\n"
+    label: userdocs-3
+    regex-selector: heccer
+  - date: "Mon Sep  7 13:44:51 CDT 2009\n"
+    label: userdocs-3
+    regex-selector: ssp
+  - date: "Mon Sep  7 13:49:11 CDT 2009\n"
+    label: userdocs-3
+    regex-selector: shell
+  - date: "Mon Sep  7 13:49:59 CDT 2009\n"
+    label: userdocs-4
+    regex-selector: shell
+  - date: "Tue Sep  8 06:47:15 CDT 2009\n"
+    label: userdocs-4
+    regex-selector: ssp
+  - date: "Tue Sep  8 06:48:22 CDT 2009\n"
+    label: userdocs-4
+    regex-selector: heccer
+  - date: "Tue Sep  8 06:49:48 CDT 2009\n"
+    label: userdocs-4
+    regex-selector: model-container
+  - date: "Tue Sep  8 06:55:13 CDT 2009\n"
+    label: userdocs-5
+    regex-selector: model-container
+  - date: "Tue Sep  8 06:58:22 CDT 2009\n"
+    label: userdocs-5
+    regex-selector: installer
+  - date: "Tue Sep  8 07:18:20 CDT 2009\n"
+    label: userdocs-5
+    regex-selector: ns-sli
+  - date: "Tue Sep  8 07:25:46 CDT 2009\n"
+    label: userdocs-5
+    regex-selector: userdocs
+  - date: "Tue Sep  8 07:28:32 CDT 2009\n"
+    label: userdocs-5
+    regex-selector: studio
+  - date: "Tue Sep  8 07:31:05 CDT 2009\n"
+    label: userdocs-6
+    regex-selector: .*
+  - date: "Mon Sep 28 15:10:02 CDT 2009\n"
+    label: userdocs-7
+    regex-selector: developer
+  - date: "Wed Nov  4 11:13:57 CST 2009\n"
+    label: prealpha-1
+    regex-selector: developer
