@@ -1,1 +1,10 @@
---- {}
+---
+all_packages:
+  configuration:
+    disabled: '1'
+  geometry:
+    disabled: '1'
+  project-browser:
+    disabled: '1'
+  publications:
+    disabled: '0'

@@ -12,8 +12,6 @@ nobase_dist_etc_DATA = \
 etcdir = $(prefix)
 
 dist-hook:
-	find $(distdir) -name _Inline -exec chmod u+w -R \{\} \;
-	$(RM) -fr `find $(distdir) -name _Inline`
 	cp $(srcdir)/license.txt $(distdir)
 #	cp -R $(srcdir)/docs $(distdir)
 #	cp -R $(srcdir)/perl $(distdir)
@@ -46,13 +44,11 @@ html-upload-prepare:
 html-upload: html-upload-prepare
 	scp -pr html/htdocs/* hcornelis,neurospaces@web.sourceforge.net:/home/groups/n/ne/neurospaces/htdocs/
 
-#perldir = $(prefix)/glue/swig/perl
+#perldir = @PMDIR@
 
 #nobase_perl_DATA = \
 #	reconstruct_test.pm \
 #	@PERL_EMBED_DATA@
-
-#perldir = $(prefix)/glue/swig/perl
 
 #nobase_perl_DATA = @PERL_EMBED_DATA@
 

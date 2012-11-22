@@ -207,3 +207,9 @@ tags:
   - date: "Wed Nov  4 11:13:57 CST 2009\n"
     label: prealpha-1
     regex-selector: developer
+  - date: "Tue Jul 13 08:09:09 CDT 2010\n"
+    label: alpha.0
+    regex-selector: developer
+  - date: "Tue Jul 13 08:10:48 CDT 2010\n"
+    label: alpha.0
+    regex-selector: developer
