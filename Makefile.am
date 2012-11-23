@@ -36,10 +36,6 @@ dist-hook:
 test: check
 
 html-upload-prepare:
-	rm -fr html/htdocs/neurospaces_project/reconstruct/
-	mkdir --parents html/htdocs/neurospaces_project/reconstruct
-	mkdir --parents html/htdocs/neurospaces_project/reconstruct/html_source
-	tar cfh - tests/html | ( cd html/htdocs/neurospaces_project/reconstruct && tar vxf - )
 
 html-upload: html-upload-prepare
 	scp -pr html/htdocs/* hcornelis,neurospaces@web.sourceforge.net:/home/groups/n/ne/neurospaces/htdocs/
