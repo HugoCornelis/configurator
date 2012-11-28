@@ -1,6 +1,6 @@
 ---
 all_packages:
-  configuration:
+  configurator:
     disabled: '1'
   geometry:
     disabled: '1'
