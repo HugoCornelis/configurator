@@ -1,5 +1,15 @@
 ---
 all_packages:
+  developer:
+    description: developer utilities that comply for GENESIS 3
+    order: 0
+    tags:
+      - genesis3
+      - neurospaces
+    version_control:
+      branch_name: 0
+      port_number: 4696
+    version_script: neurospaces_build --version
   chemesis3:
     dependencies:
       experiment: for running the tests
