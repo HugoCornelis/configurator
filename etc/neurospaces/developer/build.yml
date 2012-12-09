@@ -1,10 +1,34 @@
 ---
 all_packages:
-  configurator:
-    disabled: '1'
-  geometry:
-    disabled: '1'
-  project-browser:
-    disabled: '1'
-  publications:
-    disabled: '0'
+  heterarch:
+    leader: leader package of any HCMS
+    order: 31.5
+    tags:
+      - neurospaces
+    version_control:
+      port_number: 16383
+      server: 91.183.94.6
+  developer:
+    description: developer utilities for the Neurospaces project.
+    leader: leader package of any Neurospaces based system.
+    order: 0
+    tags:
+      - neurospaces
+    version_control:
+      branch_name: 0
+      port_number: 4696
+    version_script: neurospaces_build --version
+  20120901-GnRH-Kelly:
+    order: 101
+    tags:
+      - Neurospaces-Development
+    version_control:
+      port_number: 49152
+      server: 91.183.94.6
+  20100501-Mutual Information-Fidel:
+    order: 101
+    tags:
+      - Neurospaces-Development
+    version_control:
+      port_number: 49153
+      server: 91.183.94.6
