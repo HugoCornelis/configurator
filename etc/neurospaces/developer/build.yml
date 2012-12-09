@@ -18,3 +18,17 @@ all_packages:
       branch_name: 0
       port_number: 4696
     version_script: neurospaces_build --version
+  hugo-cornelis:
+    order: 11000
+    tags:
+      - narratives
+    version_control:
+      port_number: 11000
+      server: 91.183.94.6
+  joke-de-meyer:
+    order: 11001
+    tags:
+      - narratives
+    version_control:
+      port_number: 11001
+      server: 91.183.94.6
