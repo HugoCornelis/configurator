@@ -18,3 +18,45 @@ all_packages:
       branch_name: 0
       port_number: 4696
     version_script: neurospaces_build --version
+  model-container:
+    description: backend independent model storage
+    operations:
+      ./configure:
+        debug:
+          - CFLAGS=-g -O0
+        release:
+          - CFLAGS=-g -O9
+    order: 1
+    tags:
+      - genesis3
+      - neurospaces
+    version_control:
+      branch_name: 0
+      port_number: 4693
+  neurospaces_prcs:
+    description: 'backend independent model storage -- OLD'
+    disabled: obsoleted by the model-container under mtn control rather than prcs
+    order: 0.5
+    tags:
+      - neurospaces
+    version_control:
+      commands:
+        status:
+          - prcs
+          - diff
+          - neurospaces.prj
+          - '`prcs 2>/dev/null execute --not ".*\(directory\|symlink\)" neurospaces.prj | grep -v "neurospaces\.prj" | grep -v "purkinjespine" `'
+          - --
+          - --unified
+    version_script: prcsentry Project-Version
+  studio:
+    dependencies:
+      model-container: for storing the model in computer memory
+    description: visualizes and explores models in the model-container
+    order: 5
+    tags:
+      - neurospaces
+    version_control:
+      branch_name: 0
+      port_number: 4698
+    version_script: neurospaces --version
