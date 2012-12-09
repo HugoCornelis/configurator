@@ -32,3 +32,10 @@ all_packages:
     version_control:
       port_number: 49153
       server: 91.183.94.6
+  neurocampus:
+    order: 102
+    tags:
+      - Neurospaces-Development
+    version_control:
+      port_number: 23499
+      server: 91.183.94.6
