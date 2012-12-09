@@ -4,7 +4,6 @@ all_packages:
     description: developer utilities for the Neurospaces project.
     order: 0
     tags:
-      - genesis3
       - neurospaces
     version_control:
       branch_name: 0
