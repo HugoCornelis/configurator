@@ -1,7 +1,7 @@
 ---
 all_packages:
   developer:
-    description: developer utilities that comply for GENESIS 3
+    description: developer utilities for the Neurospaces project.
     order: 0
     tags:
       - genesis3
