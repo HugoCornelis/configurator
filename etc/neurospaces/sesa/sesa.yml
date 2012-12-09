@@ -1,7 +1,0 @@
----
-sesa:
-  account_groups:
-    acs_group: {}
-  configuration:
-    needs_account_synchronizer: 1
-    needs_external_accounting: 1
